@@ -1,4 +1,5 @@
 <?php
+	// Hans Anderson's xmlize() mirrored here: http://github.com/rmccue/XMLize. It made sense at the time.
 	function xmlize($data, $WHITE=1, $encoding='UTF-8') {
     $data = trim($data);
     $vals = $index = $array = array();
